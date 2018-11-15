@@ -13,21 +13,22 @@
     </p>
   </div>
   <div>
-  <div class="color green" id="green"></div>
-  <div class="color red" id="red"></div>
-  <div class="color blue" id="blue"></div>
-</div>
-<script>
-$('#green').click(function(){
-  $('#text').css('color', 'green')
-})
-$('#red').click(function(){
-  $('#text').css('color', 'red')
-})
-$('#blue').click(function(){
-  $('#text').css('color', 'blue')
-})
-
+    <div class="color green" id="green"></div>
+    <div class="color red" id="red"></div>
+    <div class="color blue" id="blue"></div>
+  </div>
+  <script>
+  $(function(){
+    $('#green').click(function(){
+      $('#text').css('color', 'green');
+    });
+    $('#red').click(function(){
+      $('#text').css('color', 'red');
+    });
+    $('#blue').click(function(){
+      $('#text').css('background-color', 'blue');
+    });
+  });
 </script>
 </body>
 </html>
